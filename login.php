@@ -41,7 +41,7 @@
 		      session_start();
 		      $data = $result->fetch_assoc();
 		      $_SESSION['cashId']=$data['id'];
-		      //$_SESSION['user'] = $data;
+		      $_SESSION['user'] = $data;
 		      header('location:cindex.php');
 		     }
 		    else
@@ -61,7 +61,7 @@
 		      session_start();
 		      $data = $result->fetch_assoc();
 		      $_SESSION['managerId']=$data['id'];
-		      //$_SESSION['user'] = $data;
+		      $_SESSION['user'] = $data;
 		      header('location:mindex.php');
 		     }
 		    else
