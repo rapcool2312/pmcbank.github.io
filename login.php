@@ -5,7 +5,7 @@
 	<?php require 'assets/autoloader.php'; ?>
 	<?php require 'assets/function.php'; ?>
 	<?php
-    $con = new mysqli('localhost','root','','mybank');
+    $con = new mysqli('pmcbankk.mysql.database.azure.com','rupesh2312','Bhimsen85%','mybank');
     define('bankName', 'PMC Bank',true);
 	
 		$error = "";
