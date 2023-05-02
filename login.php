@@ -22,7 +22,7 @@
 		      $data = $result->fetch_assoc();
 		      $_SESSION['userId']=$data['id'];
 		      $_SESSION['user'] = $data;
-		      header('location:index.php');
+		      header('Location:index.php');
 		     }
 		    else
 		    {
