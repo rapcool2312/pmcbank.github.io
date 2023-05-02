@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>Banking</title>
-	<?php require 'assets/autoloader.php'; ?>
-	<?php require 'assets/function.php'; ?>
+<!-- 	<?php require 'assets/autoloader.php'; ?>
+	<?php require 'assets/function.php'; ?> -->
 	<?php
+	session_start();
+	require 'assets/function.php';
+	require 'assets/autoloader.php';
     $con = new mysqli('pmcbankk.mysql.database.azure.com','rupesh2312','Bhimsen85%','mybank');
     define('bankName', 'PMC Bank',true);
 	
