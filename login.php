@@ -22,7 +22,7 @@
 		      $data = $result->fetch_assoc();
 		      $_SESSION['userId']=$data['id'];
 		      $_SESSION['user'] = $data;
-		      header('Location:index.php');
+		      header('Location: index.php');
 		     }
 		    else
 		    {
@@ -42,7 +42,7 @@
 		      $data = $result->fetch_assoc();
 		      $_SESSION['cashId']=$data['id'];
 		      $_SESSION['user'] = $data;
-		      header('location:cindex.php');
+		      header('Location: cindex.php');
 		     }
 		    else
 		    {
@@ -62,7 +62,7 @@
 		      $data = $result->fetch_assoc();
 		      $_SESSION['managerId']=$data['id'];
 		      $_SESSION['user'] = $data;
-		      header('location:mindex.php');
+		      header('Location: mindex.php');
 		     }
 		    else
 		    {
